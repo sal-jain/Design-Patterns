@@ -1,4 +1,4 @@
-package com.designpattern.strategy;
+package strategypattern;
 public abstract class Duck {
     FlyBehavior flyBehavior;
     SoundBehavior soundBehavior;

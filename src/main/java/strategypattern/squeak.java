@@ -1,4 +1,4 @@
-package com.designpattern.strategy;
+package strategypattern;
 public class squeak implements SoundBehavior{
     @Override
     public void sound() {

@@ -1,6 +1,6 @@
-package com.designpattern.strategy;
-public class RedheadDuck extends Duck{
-    public RedheadDuck() {
+package strategypattern;
+public class MallardDuck extends Duck {
+    public MallardDuck() {
         soundBehavior = new Quack();
         flyBehavior = new CanFly();
     }
@@ -10,6 +10,6 @@ public class RedheadDuck extends Duck{
     }
     @Override
     public void display() {
-        System.out.println("Hey there!! I am ReadHead Duck :)");
+        System.out.println("Hey there!! I am Mallard Duck :)");
     }
 }

@@ -1,4 +1,4 @@
-package com.designpattern.strategy;
+package strategypattern;
 public class DecoyDuck extends Duck{
     public DecoyDuck() {
         soundBehavior = new MuteQuack();

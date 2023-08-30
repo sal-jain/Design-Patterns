@@ -1,4 +1,4 @@
-package com.designpattern.strategy;
+package strategypattern;
 
 public class MuteQuack implements SoundBehavior{
     @Override

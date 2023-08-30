@@ -1,4 +1,4 @@
-package com.designpattern.strategy;
+package strategypattern;
 public class RubberDuck extends Duck{
     public RubberDuck() {
         soundBehavior = new squeak();
